@@ -1,0 +1,484 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(6, 18, 69, 0.886);
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.logo ul li {
+  list-style: none;
+  
+}
+
+.logo ul li a{
+  color: orange;
+  font-size: 40px;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+header {
+  padding: 18px 40px;
+  background-color: rgba(6, 18, 69, 0.886);
+  font-size: 20px;
+}
+
+.buy-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.buy-btn button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.buy-btn-1 {
+  display: flex;
+  gap: 10px;
+}
+
+.buy-btn-1 button {
+  background-color: white;
+  color: orange;
+  border: none;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.cart {
+  color: orange;
+  align-items: center;
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: #fff;
+  align-items: center;
+}
+
+.logo ul {
+  display: flex;
+  gap: 2px;
+}
+
+.nav-list nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.about-us-header {
+  display: flex;
+  gap: 40px;
+  margin: 20px 30px;
+  padding: 30px 0;
+}
+
+.about-us-pic {
+  display: flex;
+  gap: 20px;
+}
+
+.img {
+  margin-top: 30px;
+}
+
+.about-us {
+  position: relative;
+}
+
+.about-cont {
+  width: 40%;
+  margin: auto;
+  position: absolute;
+  top: 140px;
+  right: 40px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.about-notes {
+  padding-left: 20px;
+}
+
+.b1 {
+  color: #fff;
+}
+
+.b1-a h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.b2 {
+  color: #fff;
+  background-color: rgba(194, 194, 194, 0.194);
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+.b2 h2 {
+  font-size: 40px;
+}
+
+.lap-top {
+  color: orange;
+  font-size: 40px;
+}
+
+.b3 {
+  color: #fff;
+  background-color: rgba(194, 194, 194, 0.194);
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+.b3 h2 {
+  font-size: 40px;
+}
+
+.person {
+  color: orange;
+  font-size: 40px;
+}
+
+.about-notes button {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  padding: 20px 30px;
+  margin-top: 20px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.why-choose-us {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.c1 {
+  display: flex;
+  gap: 60px;
+  width: 100%;
+}
+
+.c1 div {
+  width: 50%;
+}
+
+.c2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.c1-a h3 {
+  background-color: rgba(128, 128, 128, 0.258);
+  padding: 5px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.c1-a p {
+  font-size: 45px;
+  font-weight: 60px;
+}
+
+.c1-b p {
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.c2-a {
+  background-color: rgba(161, 161, 161, 0.228);
+  padding: 50px 40px;
+  border-radius: 30px;
+}
+
+.c2-a h3 {
+  font-size: 50px;
+  color: orange;
+}
+
+.c2-a p {
+  font-size: 20px;
+}
+
+.card-1 {
+  background-color: rgba(255, 166, 0, 0.726);
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.team {
+  background-color: #ffffff;
+  margin: 30px 0;
+}
+
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.team-header {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: orange;
+  padding: 30px 0;
+}
+
+.info {
+  text-align: center;
+  padding: 30px;
+}
+
+.info h2 {
+  font-size: 30px;
+  font-weight: 40px;
+}
+
+.d1 {
+  font-size: 30px;
+  color: black;
+}
+
+.peicing-plans {
+  display: flex;
+  gap: 80px;
+  color: #fff;
+}
+
+.pp-cards {
+  display: flex;
+  gap: 40px;
+}
+
+.d9-1 h2 {
+  text-align: center;
+  color: #fff;
+  background-color: rgba(128, 128, 128, 0.331);
+  width: 15%;
+  margin: auto;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.d9 {
+  margin: 30px 0;
+  padding: 30px 20px;
+}
+
+.pp-content-2 h2 {
+  font-size: 50px;
+  font-weight: 40px;
+}
+
+.pp-content-2 {
+  background-color: #fff;
+  color: black;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+  border-radius: 45px;
+}
+
+.pp-content-2 p {
+  font-size: 20px;
+}
+
+.pp-cards {
+  background-color: orange;
+  color: #fff;
+  padding: 30px 60px;
+  border-radius: 45px;
+  margin-bottom: 30px;
+}
+
+.w {
+  display: flex;
+  gap: 100px;
+  font-size: 30px;
+  background-color: #fff;
+  margin: 30px 0;
+  padding: 30px;
+  padding-left: 140px;
+  text-align: center;
+}
+
+.w h2 {
+  font-size: 60px;
+  padding-bottom: 20px;
+  color: orange;
+}
+
+.d7 h2 {
+  font-size: 30px;
+}
+
+.d7 p {
+  font-size: 60px;
+}
+
+.pp-card-flx h3 {
+  font-size: 30px;
+}
+
+.pp-card-flx button {
+  background-color: #fff;
+  color: orange;
+  padding: 10px 18px;
+  margin-top: 10px;
+  border-radius: 50px;
+  border: none;
+  font-size: 25px;
+}
+
+.z {
+  text-decoration: line-through;
+}
+
+.y {
+  font-size: 50px;
+}
+
+.build {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px;
+}
+
+.build-y {
+  margin-bottom: 30px;
+  background-color: orange;
+  color: #fff;
+  padding: 40px;
+  border-radius: 30px;
+}
+
+.build-y h2 {
+  font-size: 50px;
+}
+
+.build-y p {
+  font-size: 20px;
+}
+
+.build-z {
+  margin-bottom: 30px;
+  background-color: orange;
+  color: #fff;
+  padding: 40px;
+  border-radius: 30px;
+}
+
+.build-z h2 {
+  font-size: 50px;
+}
+
+.build-z p {
+  font-size: 20px;
+}
+
+.build-3-b {
+  width: 80%;
+}
+
+.build-3-b {
+  background-color: orange;
+  color: #fff;
+  font-size: 26px;
+  padding: 30px;
+}
+.build-3-b button {
+  border: none;
+  background-color: #fff;
+  color: orange;
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: rgba(6, 18, 69, 0.886);
+  color: #fff;
+  padding: 20px 40px;
+  margin-top: 30px;
+}
+
+.footer-icons {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.icon {
+  color: orange;
+  font-size: 80px;
+}
+
+.fos-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  margin-top: 40px;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.fos-2 a {
+  color: white;
+  font-size: 20px;
+}
+.fos-3 ul {
+  padding-top: 10px;
+  line-height: 20px;
+}
+
+.fos-3 ul li {
+  list-style: none;
+}

@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY STYLES */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #e0e0e0;
+}
+
+/* TOP HEADER STYLES */
+header{
+    background-color:#fff;
+    padding: 25px 100px;
+    box-shadow:rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+header ul{
+    display: flex;
+    gap: 35px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    font-size: 18px;
+    color: #444;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 25px;
+    text-decoration: none;
+    color: teal;
+}
+
+/* SIDEBAR STYLES */
+aside {
+    width: 20%;
+    background-color: teal;
+    padding: 40px;
+}
+
+aside nav ul li {
+    list-style: none;
+}
+
+aside nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: #f9f9f9;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+aside nav ul li a:hover{
+    background-color: azure;
+    color: teal;
+    border-radius: 10px;
+}
+
+/* MAIN STYLES */
+main {
+    width: 70%;
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+main img {
+    width: 50%;
+}
+
+main h1 {
+    font-size: 70px;
+    margin-top: 30px;
+}
+
+main p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #444;
+    line-height: 30px; 
+}
+
+main h2 {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+main ul {
+    margin-top: 20px;
+}
+
+main ul li {
+    background-color: teal;
+    color: #e0e0e0;
+    padding: 30px;
+    margin-bottom: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+
+/* WRAPPER STYLES */
+.column-wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+footer p {
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+}

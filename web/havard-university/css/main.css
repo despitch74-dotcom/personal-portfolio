@@ -1,0 +1,398 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+
+main {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secondaer-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 138, 138);
+  color: #fff;
+  padding: 9px;
+}
+
+.one {
+  display: flex;
+  gap: 10px;
+}
+
+.two {
+  display: flex;
+  gap: 10px;
+}
+
+.primary-header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.primary-header a {
+  color: black;
+}
+
+.primary-header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: black;
+}
+
+.primary-header button {
+  background-color: rgb(0, 138, 138);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 138, 138);
+}
+
+.primary-header button:hover {
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  background-color: #fff;
+  color: rgb(0, 138, 138);
+}
+
+.hero {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+    url("../images/hero-section.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px;
+  position: relative;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 60px;
+  margin-top: 100px;
+}
+
+.hero p {
+  color: #fff;
+  font-size: 25px;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.hero-btn-1 button {
+  border: none;
+  background-color: rgb(0, 138, 138);
+  color: #fff;
+  padding: 15px 35px;
+  border-radius: 30px;
+}
+
+.hero-btn-1 button:hover {
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(0, 138, 138);
+}
+
+.hero-btn-2 button {
+  border: none;
+  background-color: white;
+  color: rgb(0, 138, 138);
+  padding: 15px 39px;
+  border-radius: 30px;
+}
+
+.hero-btn-2 button:hover {
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  background-color: rgb(0, 138, 138);
+  color: #fff;
+}
+
+.hero-cards {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  z-index: 999;
+  position: absolute;
+  flex: 1;
+}
+
+.hero-cards h2 {
+  font-size: 14px;
+  font-weight: 45px;
+}
+
+.hero-cards p {
+  font-size: 20px;
+  color: black;
+}
+
+.card-1 {
+  background-color: greenyellow;
+  padding: 30px 30px;
+  margin-top: 40px;
+}
+
+.card-2 {
+  background-color: yellow;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.card-3 {
+  background-color: aquamarine;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.card-4 {
+  background-color: aqua;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.about-us {
+  margin-top: 180px;
+  display: flex;
+  gap: 30px;
+  background-color: aliceblue;
+}
+
+.about-us-info {
+  padding: 20px;
+}
+
+.about-us-info h2 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 30px;
+}
+
+.about-us-info button {
+  border: none;
+  background-color: rgb(0, 138, 138);
+  color: #fff;
+  padding: 15px 35px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.courses-top p {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.courses-top h2 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 50px;
+  margin-top: 25px;
+}
+
+.couses-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.courses {
+  background-color: #f3f0f0;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.courses-info {
+  padding: 10px 30px;
+}
+
+.courses-info h3 {
+  font-size: 30px;
+  font-weight: 15px;
+  margin-bottom: 15px;
+  color: rgb(0, 138, 138);
+}
+
+.courses-info-btn button {
+  background-color: rgb(0, 138, 138);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+}
+
+.learn-from-experts {
+  margin: 20px 0;
+}
+
+.lfe-info h2 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.experts-image {
+  background-color: rgba(84, 119, 119, 0.324);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.expert-info {
+  padding: 25px 10px;
+  text-align: center;
+}
+
+.expert-info h3 {
+  font-size: 30px;
+  font-weight: 45px;
+}
+
+.expert-info p {
+  font-size: 25px;
+  color: orange;
+}
+
+.expert-img-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.lab-facilities {
+  height: 90vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.683)),
+    url("../images/library.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.lab-info {
+  background-color: #fff;
+  width: 40%;
+  margin: auto;
+  position: absolute;
+  top: 140px;
+  left: 250px;
+  padding: 20px 35px;
+}
+
+.lab-info h2 {
+  font-size: 30px;
+  font-weight: 25px;
+  margin-bottom: 10px;
+}
+
+.lab-facilities-btn button {
+  background-color: rgb(0, 138, 138);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 15px 0;
+}
+
+.news-letter {
+  margin-top: 20px;
+}
+
+.new-letter-info {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.new-letter-info h3 {
+  font-size: 40px;
+  font-weight: 45px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.email input {
+  padding: 10px 10px;
+}
+
+.form-btn button {
+  background-color: rgb(0, 138, 138);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+}
+
+.fos-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  margin-top: 40px;
+}
+
+.fos-2 a {
+  color: white;
+  font-size: 20px;
+}
+.fos-3 ul {
+  padding-top: 10px;
+  line-height: 20px;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 50px;
+}
+
+footer {
+  background-color: teal;
+  color: #fff;
+  padding: 20px 40px;
+  margin-top: 30px;
+}

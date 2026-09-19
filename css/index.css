@@ -1,0 +1,391 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+main {
+  background-color: #f9f9f9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  padding: 25px 10px;
+  background-color: #fefefe;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo a {
+  font-size: 25px;
+  color: rgb(6, 99, 132);
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links ul li a {
+  font-size: 20px;
+  color: rgb(6, 99, 132);
+}
+
+.hire h1 {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(6, 99, 132);
+}
+
+.hire h2 {
+  font-size: 70px;
+}
+.hire p {
+  width: 70%;
+}
+
+.hero {
+  display: flex;
+  margin: 20px 0;
+  padding: 50px;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.h4 {
+  display: flex;
+  gap: 20px;
+}
+
+.h4 h4 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.btn-1 button {
+  background-color: rgb(6, 99, 132);
+  color: #fff;
+  border: 2px solid rgb(6, 99, 132);
+  padding: 15px 30px;
+  border-radius: 40px;
+}
+
+.btn-2 button {
+  background-color: #fff;
+  color: rgb(6, 99, 132);
+  border: 2px solid rgb(6, 99, 132);
+  padding: 15px 30px;
+  border-radius: 40px;
+}
+
+.pic {
+  width: 80%;
+}
+
+.imgg {
+  position: relative;
+}
+
+.imgg img {
+  background-color: #fff;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.imgg img:hover {
+  transform: scale(1.05);
+  transition: ease-in-out;
+  transition-duration: 0.4s;
+}
+
+.open {
+  position: absolute;
+  bottom: -10px;
+  left: -60px;
+  background-color: rgb(6, 99, 132);
+  padding: 15px 15px;
+  color: #fff;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.about {
+  margin: 35px 30px;
+  display: flex;
+  gap: 50px;
+}
+
+.about-img {
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+}
+
+.about-img:hover img {
+  transform: scale(1.1);
+  transition: ease-in-out;
+  transition-duration: 0.4s;
+}
+
+.about-details h2 {
+  font-size: 23.9px;
+  font-weight: 400;
+}
+
+.about-details h3 {
+  font-size: 50px;
+}
+
+.about-details p {
+  width: 80%;
+  padding: 15px 0;
+}
+
+.skills {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 30px 0;
+}
+
+.skills-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card-1 {
+  padding: 90px 30px;
+  background-color: #cecece7a;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 1px solid #cecece7a;
+}
+
+.card-1:hover {
+  transform: scale(1.04);
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border: 1px solid rgba(6, 98, 132, 0.71);
+}
+
+.card-1 h2 {
+  font-size: 35px;
+}
+
+.card-2 {
+  padding: 90px 30px;
+  background-color: rgba(6, 98, 132, 0.71);
+  margin-bottom: 10px;
+  border-radius: 25px;
+  color: white;
+}
+
+.card-2:hover {
+  transform: scale(1.04);
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card-2 h2 {
+  font-size: 30px;
+}
+
+.skill-text {
+  padding-left: 30px;
+  text-align: center;
+}
+
+.skill-text h2 {
+  font-size: 18px;
+  font-weight: 300;
+  width: 10%;
+  margin: auto;
+  background-color: #cecece7a;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.skill-text p {
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.hire-me {
+  background-color: rgba(6, 98, 132, 0.71);
+  padding: 50px 0;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.details h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.details button {
+  padding: 10px 40px;
+  margin-right: 50px;
+  border: 2px solid white;
+  background-color: white;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.details button:hover {
+  background-color: rgba(6, 98, 132, 0.71);
+  color: white;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.icon {
+  font-size: 44px;
+}
+
+.p-details h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  padding: 18px 0;
+}
+
+.p-details {
+  margin: 20px 0;
+  padding-bottom: 30px;
+}
+.projects {
+  background:
+    linear-gradient(rgba(170, 169, 169, 0.3), rgba(43, 42, 42, 0.4)),
+    url("../images/my-own.png");
+  background-repeat: no-repeat;
+}
+
+.img-div img:hover {
+  transform: scale(1.13);
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.details-111 {
+  padding-left: 30px;
+}
+
+.links-111 {
+  margin: 10px 0;
+}
+
+.links-111 ul li {
+  padding: 8.5px 0;
+}
+
+.form-fill form {
+  padding: 20px 20px;
+}
+
+form .put-flx {
+  display: flex;
+  gap: 20px;
+}
+
+.put-flx input {
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid black;
+  padding: 5px 10px;
+}
+
+.sub {
+  padding: 10px 0;
+}
+
+.form-fill {
+  background-color: rgba(6, 98, 132, 0.71);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.sub input {
+  width: 100%;
+  padding: 10px 10px;
+  border: 2px solid black;
+  background-color: #fff;
+}
+
+.gen-date-district {
+  display: flex;
+  gap: 6px;
+}
+
+.message textarea {
+  border: 2px solid black;
+  background-color: #fff;
+}
+
+.button-11a1 button {
+  background-color: rgba(6, 73, 97, 0.658);
+  color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.button-11a1 {
+  padding: 10px 0;
+}
+
+.button-11a1 button:hover {
+  box-shadow: inset 0px 1px 15px 3px rgba(0, 0, 0.1, 0.2);
+}
+
+footer p {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 15px;
+}

@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- navigation links -->
+    <header>
+      <div class="container nav-header">
+        <a href="./index.html" class="logo">Student Registration</a>
+
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="container">
+        <h1>Register Now to Become a Student of ACT</h1>
+
+        <div class="hero-btndiv">
+          <button type="button">Learn More About Us</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- main content of the form goes here -->
+
+    <main class="container">
+      <form>
+        <h4>GENERAL INFORMATION</h4>
+        <hr />
+
+        <div class="names">
+          <div>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" placeholder="Amadu" />
+          </div>
+
+          <div>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" placeholder="Kamara" />
+          </div>
+        </div>
+
+        <div class="names">
+          <div>
+            <label for="student-id">Student ID</label>
+            <input type="text" id="student-id" placeholder="90500-0000" />
+          </div>
+
+          <div>
+            <label for="pob">Place of Birth</label>
+            <input type="text" placeholder="Enter place of birth" id="pob" />
+          </div>
+        </div>
+
+        <div class="gen-date-district">
+          <!-- Gender -->
+          <div id="gender">
+            <label for="gender">Gender</label>
+
+            <div class="gen-date-district">
+              <div>
+                <input type="radio" id="male" name="gender" />
+                <label for="male">Male</label>
+              </div>
+              <div>
+                <input type="radio" id="female" name="gender" />
+                <label for="female">Female</label>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="date-district">
+            <div>
+              <label for="dob">Date of Birth</label>
+              <input type="date" id="dob" />
+            </div>
+
+            <div>
+              <label for="district">District</label>
+
+              <select id="district">
+                <option value="">Select your district</option>
+                <option value="Karene">Karene</option>
+                <option value="Tonkolili">Tonkolili</option>
+                <option value="Bombali">Bombali</option>
+                <option value="Koinadugu">Koinadugu</option>
+                <option value="Portloko">Portloko</option>
+                <option value="Kambia">Kambia</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <br><br>
+
+        <h4>CONTACT INFORMATION</h4>
+        <hr />
+
+       <div class="names">
+         <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="youremail@email.com" />
+        </div>
+
+        <div>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="+23276 103 104" />
+        </div>
+       </div>
+
+       <div class="names">
+         <div>
+          <label for="home-address">Home Address </label>
+          <input
+            type="text"
+            id="home-address"
+            placeholder="3 Faith Street, Freetown"
+          />
+        </div>
+
+        <div>
+          <label for="emmergency-contact">Emmergency Contact</label>
+          <input
+            type="tel"
+            id="emmergency-contact"
+            placeholder="+23277 000 000"
+          />
+        </div>
+       </div>
+
+       <br><br>
+
+        <h4>EDUCATION DETAILS</h4>
+        <hr />
+
+        <div class="names">
+            <div>
+          <label for="secondary-school">Secondary School Attended</label>
+          <input
+            type="text"
+            id="secondary-school"
+            placeholder="School attended"
+          />
+        </div>
+
+        <div>
+          <label for="gpa">GPA</label>
+          <input type="number" id="gpa" placeholder="4.0" />
+        </div>
+        </div>
+
+        <br><br>
+
+        <h4>PROGRAM</h4>
+        <hr />
+
+        <div class="programs">
+          <label for="program">Program of Interest</label>
+
+          <div>
+            <input type="checkbox" id="bit" />
+            <label for="bit">BIT</label>
+          </div>
+          <div>
+            <input type="checkbox" id="cit" />
+            <label for="cit">CIT</label>
+          </div>
+          <div>
+            <input type="checkbox" id="dit" />
+            <label for="dit">DIT</label>
+          </div>
+          <div>
+            <input type="checkbox" id="bsem" />
+            <label for="bsem">BSEM</label>
+          </div>
+          <div>
+            <input type="checkbox" id="bbit" />
+            <label for="bbit">BBIT</label>
+          </div>
+
+          <div>
+            <button type="submit">Save Record</button>
+          </div>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="colum"></div>
+        <div class="colum"></div>
+        <div class="colum"></div>
+        <div class="colum"></div>
+      </div>
+
+      <div class="container" id="footer-hr">
+        <p>&copy; Student Registration. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
