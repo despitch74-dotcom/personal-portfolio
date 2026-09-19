@@ -314,7 +314,8 @@
             </div>
 
             <div class="form-fill">
-              <form>
+              <form action="https://formspree.io/f/xyezkyad"
+  method="POST">
                 <div class="put-flx">
                   <div>
                     <label for="fname">First Name</label><br />
@@ -323,6 +324,7 @@
                       id="fname"
                       placeholder="Your First Name"
                       required
+                      name="fname"
                     />
                   </div>
 
@@ -333,6 +335,7 @@
                       id="lname"
                       placeholder="Your Last Name"
                       required
+                      name="lname"
                     />
                   </div>
                 </div>
@@ -345,12 +348,13 @@
                       id="email"
                       placeholder="example@gmail.com"
                       required
+                      name="email"
                     />
                   </div>
 
                   <div>
                     <label for="phone">Phone</label><br />
-                    <input type="text" id="phone" placeholder="+232" required />
+                    <input type="text" id="phone" placeholder="+232" required name="phone"/>
                   </div>
                 </div>
 
@@ -359,7 +363,7 @@
 
                   <div class="gen-date-district">
                     <div>
-                      <input type="radio" id="male" name="gender" />
+                      <input type="radio" id="male" name="gender"/>
                       <label for="male">Male</label>
                     </div>
                     <div>
@@ -376,6 +380,7 @@
                     id="sub"
                     placeholder="State your purpose"
                     required
+                    name="sub"
                   />
                 </div>
 
@@ -383,7 +388,7 @@
                   <label for="message">Message</label><br />
                   <textarea
                     class="w-full"
-                    name=""
+                    name="message"
                     id="message"
                     placeholder="Write your message"
                   ></textarea>
