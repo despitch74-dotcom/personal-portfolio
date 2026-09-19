@@ -389,3 +389,130 @@ footer p {
   padding: 20px 0;
   margin-top: 15px;
 }
+
+/* ==========================================
+   Responsive Enhancements (Media Queries)
+   ========================================== */
+
+/* Tablet & Mobile Breakpoint (Below 992px) */
+@media screen and (max-width: 992px) {
+  /* Header & Nav */
+  header .links {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .nav-links ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* Hero Section */
+  .hero {
+    flex-direction: column-reverse;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .hire h2 {
+    font-size: 40px;
+  }
+  .hire p {
+    width: 100%;
+  }
+  .hero-btn {
+    justify-content: center;
+  }
+  .h4 {
+    justify-content: center;
+  }
+  .pic {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .open {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+  }
+
+  /* About Section */
+  .about {
+    flex-direction: column;
+    margin: 20px 10px;
+    gap: 30px;
+  }
+  .about-details p {
+    width: 100%;
+  }
+  .about-details h3 {
+    font-size: 35px;
+  }
+
+  /* Skills Cards */
+  .skills-cards {
+    flex-direction: column;
+  }
+  .skill-text h2 {
+    width: 40%;
+  }
+
+  /* Hire Me Banner */
+  .details {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .details h2 {
+    font-size: 30px;
+  }
+  .details button {
+    margin-right: 0;
+  }
+
+  /* Contact Section Container (Targets Tailwind flex on #Contact) */
+  #Contact .container > div {
+    flex-direction: column !important;
+    padding: 20px 0;
+  }
+  .details-111 {
+    padding-left: 0;
+    text-align: center;
+  }
+  .details-111 p.w-130 {
+    width: 100% !important;
+    padding: 0 15px;
+  }
+  .links-111 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-fill {
+    border-radius: 20px;
+    width: 100%;
+  }
+}
+
+/* Small Mobile Screens (Below 600px) */
+@media screen and (max-width: 600px) {
+  .hire h2 {
+    font-size: 32px;
+  }
+  form .put-flx {
+    flex-direction: column;
+  }
+  .nav-links ul li a {
+    font-size: 16px;
+  }
+  .logo a {
+    font-size: 20px;
+  }
+  .p-details h2 {
+    font-size: 32px;
+  }
+  .details-111 h2.text-4xl {
+    font-size: 28px !important;
+  }
+}
