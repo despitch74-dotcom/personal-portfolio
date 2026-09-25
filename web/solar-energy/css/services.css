@@ -324,3 +324,136 @@ footer {
   font-size: 50px;
   color: orange;
 }
+
+/* ==========================================
+   RESPONSIVE MEDIA QUERIES FOR ALL SCREEN SIZES
+   ========================================== */
+
+/* Tablet Screens (max-width: 992px) */
+@media screen and (max-width: 992px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  .nav-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-list nav ul {
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-content h1 {
+    font-size: 55px;
+  }
+
+  .hero-content p {
+    font-size: 28px;
+  }
+
+  .wqqe h2 {
+    font-size: 38px;
+  }
+
+  .rtr454 {
+    max-width: 90%;
+    font-size: 32px;
+  }
+
+  .tygfd2345 {
+    max-width: 90%;
+  }
+}
+
+/* Mobile Screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 92%;
+  }
+
+  .nav-list nav ul {
+    font-size: 16px;
+    gap: 10px;
+  }
+
+  .nav-btn, .buy-btn, .buy-btn-1 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-btn button, .buy-btn button, .buy-btn-1 button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-content {
+    left: 20px;
+    bottom: 30px;
+    padding-right: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-content p {
+    font-size: 20px;
+  }
+
+  .wqqe h2 {
+    font-size: 30px;
+  }
+
+  .wqqe p {
+    font-size: 16px;
+  }
+
+  .rtgfeds {
+    font-size: 36px;
+  }
+
+  .rtr454 {
+    font-size: 26px;
+    max-width: 100%;
+  }
+
+  .tygfd2345 {
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .fos-1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+/* Small Mobile Screens (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .logo ul li a {
+    font-size: 30px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .wqqe h2 {
+    font-size: 24px;
+  }
+
+  .rtgfeds {
+    font-size: 28px;
+  }
+
+  header {
+    padding: 10px;
+  }
+}

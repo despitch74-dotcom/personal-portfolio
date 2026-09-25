@@ -482,3 +482,121 @@ footer {
 .fos-3 ul li {
   list-style: none;
 }
+
+/* =========================================
+   RESPONSIVE MEDIA QUERIES FOR ALL SCREENS
+   ========================================= */
+
+@media screen and (max-width: 1024px) {
+  header {
+    padding: 15px 20px;
+  }
+  .nav-list nav ul {
+    gap: 15px;
+  }
+  .about-us-header {
+    flex-direction: column;
+  }
+  .about-cont {
+    position: static;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .c2 {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .c2-a {
+    flex: 1 1 40%;
+    text-align: center;
+  }
+  .w {
+    padding-left: 30px;
+    gap: 40px;
+  }
+  .fos-1 {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .d9-1 h2 {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .nav-list nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .c1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .c1 div {
+    width: 100%;
+  }
+  .c2-a {
+    flex: 1 1 100%;
+  }
+  .w {
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .build {
+    flex-direction: column;
+  }
+  .build-3-b {
+    width: 100%;
+  }
+  .peicing-plans {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .pp-cards {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .d9-1 h2 {
+    width: 70%;
+  }
+  .about-us-pic {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .nav-list nav ul {
+    font-size: 14px;
+    gap: 8px;
+  }
+  .b1-a h2, .pp-content-2 h2, .build-y h2, .build-z h2 {
+    font-size: 32px;
+  }
+  .c1-a p {
+    font-size: 28px;
+  }
+  .c2-a h3, .d7 p {
+    font-size: 36px;
+  }
+  .w h2 {
+    font-size: 40px;
+  }
+  .container {
+    width: 92%;
+  }
+  .d9-1 h2 {
+    width: 90%;
+  }
+}

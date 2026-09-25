@@ -281,3 +281,110 @@ footer {
   color: orange;
   font-size: 80px;
 }
+
+/* ==========================================
+   RESPONSIVE MEDIA QUERIES FOR ALL SCREEN SIZES
+   ========================================== */
+
+/* Tablet Screens (max-width: 992px) */
+@media screen and (max-width: 992px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  .nav-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-list nav ul {
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .q1 {
+    flex-direction: column;
+  }
+
+  .pp {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .pp h2 {
+    width: 100%;
+    font-size: 38px;
+    line-height: 45px;
+  }
+}
+
+/* Mobile Screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 92%;
+  }
+
+  .nav-list nav ul {
+    font-size: 16px;
+    gap: 10px;
+  }
+
+  .nav-btn, .buy-btn, .buy-btn-1 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-btn button, .buy-btn button, .buy-btn-1 button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .pp h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .pp p {
+    font-size: 16px;
+  }
+
+  .mmi h2 {
+    font-size: 30px;
+  }
+
+  form {
+    margin: 15px 0px;
+    padding: 15px;
+  }
+
+  .fos-1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .a111 button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}
+
+/* Small Mobile Screens (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .logo ul li a {
+    font-size: 30px;
+  }
+
+  .pp h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .mmi h2 {
+    font-size: 24px;
+  }
+
+  header {
+    padding: 10px;
+  }
+}

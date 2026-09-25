@@ -343,3 +343,138 @@ footer {
   color: orange;
   font-size: 80px;
 }
+
+/* ==========================================
+   RESPONSIVE MEDIA QUERIES FOR ALL SCREEN SIZES
+   ========================================== */
+
+/* Tablet Screens (max-width: 992px) */
+@media screen and (max-width: 992px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  .nav-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-list nav ul {
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-content {
+    width: 85%;
+    padding: 150px 20px;
+  }
+
+  .hero-content-1 h2 {
+    font-size: 45px;
+  }
+
+  .message p {
+    font-size: 35px;
+  }
+
+  .news-letter-form h2 {
+    font-size: 32px;
+  }
+}
+
+/* Mobile Screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 92%;
+  }
+
+  .nav-list nav ul {
+    font-size: 16px;
+    gap: 10px;
+  }
+
+  .nav-btn, .buy-btn, .buy-btn-1 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-btn button, .buy-btn button, .buy-btn-1 button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-content {
+    width: 95%;
+    padding: 120px 10px;
+  }
+
+  .hero-content-1 h2 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .amazing-f-content p {
+    font-size: 30px;
+  }
+
+  .wel-1 div {
+    width: 100%;
+  }
+
+  .message p {
+    font-size: 28px;
+  }
+
+  .newsletter {
+    padding: 20px;
+  }
+
+  .news-text p {
+    font-size: 22px;
+  }
+
+  .news-letter-form {
+    padding: 30px 15px;
+  }
+
+  .news-letter-form h2 {
+    font-size: 26px;
+  }
+
+  .fos-1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .a111 button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}
+
+/* Small Mobile Screens (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .logo ul li a {
+    font-size: 30px;
+  }
+
+  .hero-content-1 h2 {
+    font-size: 26px;
+  }
+
+  .amazing-f-content p {
+    font-size: 24px;
+  }
+
+  .message p {
+    font-size: 22px;
+  }
+
+  header {
+    padding: 10px;
+  }
+}

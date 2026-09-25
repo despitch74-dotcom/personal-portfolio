@@ -268,3 +268,121 @@ footer {
   padding: 30px 0;
   margin: 20px 0;
 }
+
+
+/* ==========================================
+   RESPONSIVE MEDIA QUERIES FOR ALL SCREEN SIZES
+   ========================================== */
+
+/* Tablet Screens (max-width: 992px) */
+@media screen and (max-width: 992px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  .nav-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-list nav ul {
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-content h1 {
+    font-size: 70px;
+  }
+
+  .hero-content {
+    left: 40px;
+    bottom: 50px;
+  }
+
+  .z2 h2 {
+    font-size: 45px;
+  }
+}
+
+/* Mobile Screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 92%;
+  }
+
+  .nav-list nav ul {
+    font-size: 16px;
+    gap: 10px;
+  }
+
+  .nav-btn, .buy-btn, .buy-btn-1 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-btn button, .buy-btn button, .buy-btn-1 button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-content {
+    left: 20px;
+    bottom: 30px;
+    padding-right: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 45px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  .featured-projects {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .content h2 {
+    font-size: 28px;
+  }
+
+  .z2 h2 {
+    font-size: 35px;
+  }
+
+  .z2 p {
+    font-size: 16px;
+  }
+
+  .fos-1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+/* Small Mobile Screens (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .logo ul li a {
+    font-size: 30px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+  }
+
+  .z2 h2 {
+    font-size: 28px;
+  }
+
+  header {
+    padding: 10px;
+  }
+}
