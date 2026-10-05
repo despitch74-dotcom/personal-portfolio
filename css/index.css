@@ -342,6 +342,7 @@ form .put-flx {
 }
 
 .form-fill {
+  display: flex;
   justify-content: space-between;
   background-color: rgba(6, 98, 132, 0.71);
   border-top-right-radius: 20px;
