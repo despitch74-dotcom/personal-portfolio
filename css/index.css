@@ -356,7 +356,7 @@ form .put-flx {
 
 .gen-date-district {
   display: flex;
-  gap: 6px;
+  /* gap: 6px; */
 }
 
 .message textarea {
