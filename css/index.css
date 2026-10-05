@@ -327,7 +327,7 @@ header {
 
 form .put-flx {
   display: flex;
-  gap: 20px;
+  /* gap: 20px; */
 }
 
 .put-flx input {
